@@ -27,6 +27,8 @@ function App() {
       { url: 'https://react-http-1-f6f8f-default-rtdb.firebaseio.com/tasks.json' },
       transformTasks
     );
+
+  
   }, [fetchTasks]);
 
   const taskAddHandler = (task) => {
